@@ -9,7 +9,7 @@ Assumes a working Python 3 installation (with python=python3 and pip=pip3).
 
 (2) Database initialization
 1. set the database name in the app.py file.
-2. run schema.sql in your database.
+2. run schema.sql, schema_ins.sql in your database.
 
 (3) Run Web-App
 >$ python app.py
