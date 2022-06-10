@@ -16,7 +16,6 @@ Assumes a working Python 3 installation (with python=python3 and pip=pip3).
 
 ## ER-diagram
 
-![alt text](https://github.com/Rasmushoy/currency_converter/img.png)
 ![alt text](https://github.com/Rasmushoy/currency_converter/blob/main/img.png)
 
 
