@@ -1,5 +1,5 @@
 # Currency Converter
-### Running the Web-App:
+## Running the Web-App:
 
 Assumes a working Python 3 installation (with python=python3 and pip=pip3).
 
@@ -14,7 +14,7 @@ Assumes a working Python 3 installation (with python=python3 and pip=pip3).
 (3) Run Web-App
 >$ python app.py
 
-(4) ER-diagram
+## ER-diagram
 
 ![alt text](https://github.com/Rasmushoy/currency_converter/img.png)
 
