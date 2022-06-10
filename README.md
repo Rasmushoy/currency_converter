@@ -17,7 +17,8 @@ Assumes a working Python 3 installation (with python=python3 and pip=pip3).
 ## ER-diagram
 
 ![alt text](https://github.com/Rasmushoy/currency_converter/img.png)
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Rasmushoy/currency_converter/blob/main/img.png)
+
 
 # Juni 12, 2022
 The converter takes the amount, the base currency and the desired end currency and provides the converted value. 
