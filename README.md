@@ -18,7 +18,7 @@ Assumes a working Python 3 installation (with python=python3 and pip=pip3).
 
 ![alt text]([https://github.com/Rasmushoy/currency_converter/blob/main/Er_3.png])
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Rasmushoy/currency_converter/blob/main/Er_currency.png)
 
 
 # Juni 12, 2022
