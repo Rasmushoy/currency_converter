@@ -1,4 +1,7 @@
 # Currency Converter
+
+![alt text](https://github.com/Rasmushoy/currency_converter/blob/main/tmp/Currency%20Converter.png)
+
 ## Running the Web-App:
 
 Assumes a working Python 3 installation (with python=python3 and pip=pip3).
