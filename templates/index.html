@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Front page
+{% endblock %}
+
+{% block body %}
+<div id="top">Currency Converter</div>
+<div class="image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcsYEZMWHSf7f5Yo4TPHQT3PMu7RkvB-zSdg&usqp=CAU">
+</div>
+<div>
+    <form action="{{url_for('index')}}" method="post">
+        <div>
+            <input name="base" list = 'currency_list' placeholder="From">
+            <input name = 'amount' type="floatformat" placeholder="enter the base amount" min="0">
+            <input name='end' list = 'currency_list' placeholder="To">
+            <datalist id = 'currency_list'>
+                {% for currency in currencies %}
+                <option value="{{currency}}"></option>
+                {% endfor %}
+            </datalist>
+        </div>
+        <div class="container">
+            <button type="submit" class="btn btn-primary">Convert</button>
+        </div>
+    </form>
+</div>
+
+<div class="container">
+    <button type="submit" class="btn btn-success">{{output}}</button>
+    
+</div>
+{% endblock %}

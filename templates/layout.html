@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <style>
+            body{
+                text-align: center;
+            }
+            .container{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .image{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            #top{
+                background-color:rgb(54, 106, 94);
+                text-align: center;
+                color: white;
+                font-family: sans-serif;
+                font-weight: bolder;
+                font-size: 50px;
+                padding-left: 20px;
+            }
+        </style>
+    </head>
+    </div>
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="{{ url_for('about') }}">About</a>
+            </div> 
+    <body>
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>
