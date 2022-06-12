@@ -9,7 +9,7 @@ Assumes a working Python 3 installation (with python=python3 and pip=pip3).
 
 (2) Database initialization
 1. Set the database name in the app.py file.
-2. Run first schema.sql, and then schema_ins.sql in your database. If you want to drop, run schema_drop.sql \\
+2. Run first schema.sql, and then schema_ins.sql in your database. If you want to drop, run schema_drop.sql 
 OBS: In the 'schema_ins.sql' change the directory to the path of the 'curr.csv' file.
 
 (3) Run the Web-App
