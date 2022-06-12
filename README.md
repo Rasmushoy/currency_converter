@@ -17,7 +17,7 @@ OBS: In the 'schema_ins.sql' change the directory to the path of the 'curr.csv' 
 
 ## ER-diagram
 
-![alt text](https://github.com/Rasmushoy/currency_converter/blob/main/Er_Currency.png)
+![alt text](https://github.com/Rasmushoy/currency_converter/blob/main/tmp/Er_Currency.png)
 
 
 # Juni 12, 2022
